@@ -1,0 +1,45 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+    
+    }
+div{
+    padding: 20px;
+    margin: 30px 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+button{
+    border-radius: 30px;
+    border: none;
+    padding: 8px;
+}
+#B1{
+    background-color: gray;
+    color: white;
+}
+#B1:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+#B2{
+    background-color: yellow;
+    color: black;
+}
+#B2:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+
+}
+#B3{
+    background-color: purple;
+    color: white;
+}
+#B3:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+
+}
