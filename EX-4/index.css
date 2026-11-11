@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background-color: #f8fafc;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.container {
+    width: 100%;
+    width: 1200px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f1f5f9;
+}
+
+        .left-section {
+            padding: 32px 24px;
+            border-right: 1px solid #f1f5f9;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .menu-logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #0015fc;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            list-style: none;
+        }
+
+        .item{
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 14px 18px;
+            border-radius: 14px;
+            color: #64748b;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .item:hover {
+            color: #4f46e5;
+            background-color: #f5f3ff;
+        }
+
+        .item.current{
+            background-color: #4f46e5;
+            color: #ffffff;
+            box-shadow: 0 8px 16px rgba(79, 70, 229, 0.25);
+        }
+
+        .right-section {
+            display: grid;
+            grid-template-rows: 80px 100px ;
+        }
+            .header{
+                display: flex;
+                justify-content: space-between;
+                padding: 32px 24px;
+            }
+            .text{
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #0015fc;
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                padding: 16px 16px;
+                border-radius: 14px;
+                background-color: #f1f5f9;
+            }
+            input[type="text"]{
+                border: none;
+                background-color: #f1f5f9;
+            }
+
+             /* Welcome  */
+            .welcome{
+                justify-content: space-between;
+                align-items: center;
+                padding: 32px 24px;
+                background-color: #4f46e5;
+                border-radius: 24px;
+                color: #ffffff;
+                margin: 0 20px;
+            }
+            .name{
+                font-size: 1.5rem;
+                font-weight: 700;
+            }
+            .description{
+                font-size: 0.8rem;
+                font-weight: 400;
+            }
+
+
+
+                .status-box{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    margin-top: 10px;
+                }
+                .student{
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    color: #0015fc;
+                    margin-left: 20px;
+                    padding-bottom: 0.8rem;
+                }
+                .status{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 10px;
+                    justify-content: space-between;
+                    margin: 0 20px;
+
+                }
+                .status p{
+                    font-weight: bold;
+                    color: black;
+                }
+                .attendance{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 8px;
+                    background-color: #ccd3db;
+                    padding: 8px 16px;
+                    border-radius: 14px;
+                }
+                .logo{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 12px;
+                    background-color: #0de162;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
