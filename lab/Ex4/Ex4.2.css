@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.content {
+    /* property: clamp(minimum, preferred, maximum); */
+  width: clamp(300px, 100%, 800px);
+  height: 400px;
+  background-color: #c6ea00;
+}

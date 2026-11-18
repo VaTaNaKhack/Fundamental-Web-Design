@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.big {
+  background-color: #6ab01c;
+  font-size: 2rem;
+  padding: 16px 24px;
+}
+.small {
+  display: none;
+}
+
+.small #tired{
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .big #fear{
+    display: none;
+  }
+  .big {
+    display: none;
+  }
+
+  .small{
+    display: block;
+    background-color: #e74c3c;
+    font-size: 1rem;
+    padding: 12px 14px;
+  }
+  .small #tired{
+    display: inline;
+  }
+}

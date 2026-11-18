@@ -1,0 +1,38 @@
+body{
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+}
+.left{
+    font-size: larger;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.fa-bars{
+    display: none;
+}
+@media (max-width: 768px){
+
+    .fa-bars{
+        display: flex;
+    }
+    .right{
+        display: none;
+    }
+
+    .fa-bars:hover{
+        color: rgb(226, 164, 72);
+    }
+
+}

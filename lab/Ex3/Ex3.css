@@ -1,0 +1,50 @@
+*{
+    border-radius: 0.5rem;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+header, footer{
+    height: 50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    align-content: center;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 10px;
+}
+main, sidebar{
+    background-color: gray;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 900px) and (min-width: 600px){
+    .center{
+        flex-direction: row;
+    }
+    header, footer{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+@media (min-width: 900px){
+    .center{
+        flex-direction: row;
+    }
+    header, footer{
+        font-size: 40px;
+        font-weight: bold;
+        height: 70px;
+    }
+
+}
