@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="practice.css"></link>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Create account
+        </div>
+        <div class="center">
+            <div class="top">
+                <div class="left">
+                    <label for="firstname">Firstname</label><br>
+                    <input type="text" name="firstname" placeholder="Enter your firstname" id="firstname"><br>
+                </div>
+                <div class="right">
+                    <label for="lastname">Lastname</label><br>
+                    <input type="text" name="lastname" placeholder="Enter your lastname" id="lastname"><br>
+                </div>
+            </div>
+            <div class="email">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" placeholder="Enter your email" id="email"><br>
+            </div>
+            
+            <div class="top">
+                <div class="left">
+                    <label for="password">Password</label><br>
+                    <input type="text" name="password" placeholder="Enter your password" id="password"><br>
+                </div>
+                <div class="right">
+                    <label for="password_confirm">Confirm Password</label><br>
+                    <input type="text" name="password_confirm" placeholder="Confirm your password" id="password_confirm"><br>
+                </div>
+            </div>
+
+
+            <div class="button">
+                <div class="button-left">
+                    <label>Gender:</label><br>
+                    <text><input type="radio" name="gender" value="male"> Male</text>
+                    <text><input type="radio" name="gender" value="female"> Female</text>
+                </div>
+                <div class="button-right">
+                    <label>Hobbies</label><br>
+                    <text><input type="checkbox" name="hobbies" value="music"> Music</text>
+                    <text><input type="checkbox" name="hobbies" value="sports"> Sports</text>
+                    <text><input type="checkbox" name="hobbies" value="travel"> Travel</text>
+                    <text><input type="checkbox" name="hobbies" value="movies"> Movies</text>
+                </div>
+            </div>
+
+            <div class="select">
+                <div class="left">
+                    <label for="source-income">Source of Income</label><br>
+                        <select id="source-income">
+                            <option value="employed" selected>Employed</option>
+                            <option value="business">Business</option>
+                            <option value="freelance">Freelance</option>
+                            <option value="other">Other</option>
+                        </select>
+                </div>
+                <div class="right">
+                    <label for="income">Income</label>
+                    <div class="range">
+                        <input type="range" id="income" min="0" max="50" value="20">
+                        <span class="range-box">20K</span>
+                    </div>
+                </div>             
+            </div>
+
+            <div class="file-age">
+                <div class="file-box">
+                    <label for="file">Upload Profile Picture</label><br>
+                    <input type="file" id="file">
+                </div>
+                <div class="age-box">
+                    <label for="age" >Age</label><br>
+                    <input type="text" id="age" value="18">
+                </div>
+            </div>
+
+            <div class="bio-box">
+                <label for="bio">Bio</label><br>
+                <textarea id="bio" rows="3" cols="89" ></textarea>
+            </div>
+            
+        </div>
+        <div class="footer">
+            <button type="submit" class="btn"> Create</button>
+        </div>
+    </div>
+</body>
+</html>
